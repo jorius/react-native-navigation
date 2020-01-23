@@ -1,0 +1,44 @@
+[
+    {
+        "component": "FavoritesScreenContainer",
+        "icon": "heart",
+        "name": "favorites",
+        "navigation": ["root", "tabs"],
+        "order": 1
+    },
+    {
+        "component": "HomeScreenContainer",
+        "defaultTabs": true,
+        "icon": "home-circle",
+        "name": "home",
+        "navigation": ["root", "tabs"],
+        "order": 0
+    },
+    {
+        "component": "LoginScreenContainer",
+        "defaultRoot": true,
+        "icon": "key",
+        "name": "login",
+        "navigation": ["root"]
+    },
+    {
+        "component": "NotificationsScreenContainer",
+        "icon": "bell",
+        "name": "notifications",
+        "navigation": ["root", "tabs"],
+        "order": 2
+    },
+    {
+        "component": "ProfileScreenContainer",
+        "icon": "face-profile",
+        "name": "profile",
+        "navigation": ["root"]
+    },
+    {
+        "component": "SettingsScreenContainer",
+        "icon": "tune",
+        "name": "settings",
+        "navigation": ["root", "tabs"],
+        "order": 3
+    }
+]
