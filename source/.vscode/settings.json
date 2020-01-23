@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/package-lock.json": true
+    },
+    "javascript.suggestionActions.enabled": false,
+    "search.exclude": {
+        "**/node_modules": true
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+}
