@@ -1,0 +1,109 @@
+{
+    "env": {
+        "es6": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [],
+    "rules": {
+        "prefer-object-spread": 0,
+        "arrow-body-style": [
+            "error",
+            "as-needed"
+        ],
+        "arrow-parens": 0,
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "function-paren-newline": [
+            "error",
+            "consistent"
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "import/prefer-default-export": "off",
+        "implicit-arrow-linebreak": "off",
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "ignoredNodes": [
+                    "JSXElement"
+                ]
+            }
+        ],
+        "jsx-a11y/alt-text": 0,
+        "max-len": [
+            1,
+            120,
+            2,
+            {
+                "ignoreComments": true
+            }
+        ],
+        "no-case-declarations": 0,
+        "no-confusing-arrow": 0,
+        "no-empty": [
+            "error",
+            {
+                "allowEmptyCatch": true
+            }
+        ],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": false
+            }
+        ],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "no-shadow": 0,
+        "no-useless-constructor": 0,
+        "react/forbid-prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props": [
+            "error",
+            4
+        ],
+        "react/no-array-index-key": 0,
+        "react/no-typos": 0,
+        "react/prefer-stateless-function": [
+            2,
+            {
+                "ignorePureComponents": true
+            }
+        ],
+        "react/prop-types": [
+            2,
+            {
+                "skipUndeclared": true
+            }
+        ]
+    }
+}
