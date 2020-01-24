@@ -5,7 +5,9 @@
 
 It took me a while to understand the complexity of the react native navigation through different navigators, nested navigators and screen, so I hope here you can understand a lot better this subject from my experience.
 
-What we're gonna do here is the following:
+## What we're gonna do here is the following:
+
+![Navigation Gif](./navigation.gif)
 
 [//]: <> (Over here I should include a gif with the behavior of navigate through different screens and tabs)
 
@@ -17,6 +19,31 @@ What we're gonna do here is the following:
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
 
 ### Architecture and folder structure
+
+```
+├── assets
+├── components
+│   ├── ctrl-app-bar
+│   └── ctrl-navigation
+│       └── ctrl-tab-bar
+├── config
+│   ├── data
+│   └── routes
+├── containers
+├── core
+├── redux
+│   └── app
+├── screens
+│   ├── favorites-screen
+│   ├── home-screen
+│   ├── login-screen
+│   ├── master-screen
+│   ├── notifications-screen
+│   ├── profile-screen
+│   └── settings-screen
+└── util
+
+```
 
 ### Core files, functions and methods to build our navigation
 
@@ -370,4 +397,4 @@ I did not explain some of the components and any other logic that is already in 
 
 If you have doubts, issues or troubles trying to make this from scratch you can go to the repo and dig deep into the project and see how was everything done. :blush:
 
-[This is the repo on github for this project :blush:](https://github.com/jorius/react-native-navigation)
+[This is the repo on github for this project :blush:](https://github.com/jorius/react-native-navigation/tree/playground)
