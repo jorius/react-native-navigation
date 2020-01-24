@@ -3,7 +3,7 @@
 
 ### Content
 
-It took me a while to understand the complexity of the react native navigation through different navigators, nested navigators and screen, so I hope here you can understand a lot better this subject from my experience.
+It took me a while to understand the complexity of the react native navigation through different navigators, nested navigators and screen, so I hope that by reading this post, you can understand a lot better this subject from my experience.
 
 ## What we're gonna do here is the following:
 
@@ -113,7 +113,7 @@ export default {
 }
 ```
 
-> So, as you though right we create two separate arrays (one for root navigation and one for tabs navigation) and add to each element of each array new properties.
+> So, you are right, we create two separate arrays (one for root navigation and one for tabs navigation) and add new properties to each element of each array.
 
 Once the steps above are done we're gonna create the navigation component in `source/components/` like this:
 
@@ -218,8 +218,7 @@ const Root = ({
 export default Root;
 ```
 
-As you can see we receive 4 props in the `Root` component, a `headerProps`, the `onSetAppTitle` action creator and two more objects `rootProps`,
-`tabsProps` because this `Root` component is the one that we instance in our main container.
+As you can see we receive 4 props in the `Root` component, a `headerProps`, the `onSetAppTitle` action creator and two more objects `rootProps`, `tabsProps` because this `Root` component is the one that we instantiate in our main container.
 
 We put a `Stack.Screen` component outside the root routes iteration with the `Tabs` component or in other words our Tabs Navigator to start nesting this navigation flow.
 
@@ -257,7 +256,7 @@ const AppContainer = () => (
 
 export default AppContainer;
 ```
-Let's keep going through the hierarchy, this is the `source/containers/master-screen.js`, over here we're using some redux action creators and reducers state.
+Let's keep going through the hierarchy, this is the `source/containers/master-screen.js`, over here we're using some redux action creators and state reducers.
 
 ```jsx
 // @packages
@@ -395,6 +394,6 @@ export const mapComponent = componentName =>
 
 I did not explain some of the components and any other logic that is already in the repo to don't make this guide long and just focus on the main subject here: **Build a scalable navigation in a easy way to understand.**
 
-If you have doubts, issues or troubles trying to make this from scratch you can go to the repo and dig deep into the project and see how was everything done. :blush:
+If you have doubts, issues or any trouble trying to make this from scratch you can go to the repo and dig deeper into the project and see how everything was done. :blush:
 
 [This is the repo on github for this project :blush:](https://github.com/jorius/react-native-navigation/tree/playground)
